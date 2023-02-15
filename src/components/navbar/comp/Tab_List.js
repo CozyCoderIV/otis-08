@@ -10,19 +10,19 @@ function Tab_List() {
   // JSX
   return (
     <div className="base_container">
-      <Link id="link" to={"/src/pages/home/Home.js"}>
+      <Link id="link" to="/">
         <Title className="title" title={tabNames[0]} />
       </Link>
-      <Link id="link" to={"/src/pages/about/About.js"}>
+      <Link id="link" to="/about">
         <Title className="title" title={tabNames[1]} />
       </Link>
-      <Link id="link" to={"/src/pages/projects/Projects.js"}>
+      <Link id="link" to="/projects">
         <Title className="title" title={tabNames[2]} />
       </Link>
-      <Link id="link" to={"/src/pages/contacts/Contact.js"}>
+      <Link id="link" to="/contacts">
         <Title className="title" title={tabNames[3]} />
       </Link>
-      <Link id="link" to={"/src/pages/art/Art.js"}>
+      <Link id="link" to="/art">
         <Title className="title" title={tabNames[4]} />
       </Link>
     </div>

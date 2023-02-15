@@ -20,6 +20,18 @@ $laptop: 992px;
 $desktop: 1200px;
 
 // Classes
-.text {
-  font-size: x-small;
+.icons_container {
+  display: flex;
 }
+.icon_link {
+  position: relative;
+  top: 1ch;
+  left: 30%;
+  margin: 4.4%;
+  color: $secondary-1;
+}
+.icon {
+  transform: scale(3);
+}
+
+// IDs
