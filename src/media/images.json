@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Welcome",
+    "icon": "./images/Greyscale3.jpg"
+  },
+  {
+    "id": 2,
+    "name": "AI Art",
+    "icon": "./images/BWOJ.png"
+  },
+  {
+    "id": 3,
+    "name": "Resume",
+    "icon": "./images/resume.png"
+  }
+]

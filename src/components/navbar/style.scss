@@ -5,8 +5,19 @@ $secondary-color-1: #545458;
 $secondary-color-2: #767680;
 $tertiary-color: #ebebe5;
 
+// Variables Set 2
+$primary-1: #3d3d3d;
+$primary-2: #525251;
+$secondary-1: #e0e0e0;
+$tertiary-1: #adadad;
+$navbar-color: rgba(7, 7, 7, 0.131);
+$bg-1: linear-gradient(to top, rgb(13, 12, 16), rgb(29, 27, 30));
+
 // Breakpoints
 $mobile: 375px;
 $tablet: 768px;
 $laptop: 992px;
 $desktop: 1200px;
+
+.base_container {
+}
