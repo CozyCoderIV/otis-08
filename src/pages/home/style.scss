@@ -24,9 +24,9 @@ $desktop: 1200px;
   position: relative;
   top: 8%;
   left: 5%;
-  height: 90vh;
+  height: 185vh;
   width: 90%;
-  background: rgb(39, 37, 37);
+  z-index: 1;
 
   // Galaxy S8+
   @media (min-width: 360px) {

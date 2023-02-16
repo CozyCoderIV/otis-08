@@ -18,10 +18,10 @@ function Footer() {
         <Icon_List />
       </div>
       <div id="text_box_container">
-        <Text text={quoteA} />
-        <Text text={quoteB} />
-        <Text text={quoteC} />
-        <Text text={quoteD} />
+        <div className="quote">{quoteA}</div>
+        <div className="quote">{quoteB}</div>
+        <div className="quote">{quoteC}</div>
+        <div className="quote">{quoteD}</div>
       </div>
     </div>
   );

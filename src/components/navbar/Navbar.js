@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <div className="base_container">
       <img id="nav_logo" src={logo}></img>
-      <div id="title">
+      <div id="nav_title">
         <Title title={title} />
       </div>
       <div>

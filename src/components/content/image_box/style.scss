@@ -19,37 +19,22 @@ $tablet: 768px;
 $laptop: 992px;
 $desktop: 1200px;
 
-.base_container {
-  bottom: 92.9%;
+// Classes
+.image_box {
   width: 100%;
-  height: 7%;
-  position: fixed;
-  display: flex;
-  background: $bg-1;
-  color: $secondary-1;
-  border-bottom: 1px solid rgba(253, 252, 252, 0.202);
+  height: 30vh;
 
-  overflow-y: hidden;
-  z-index: 4;
+  object-fit: cover;
+  border: 2px solid black;
+  overflow: hidden;
 }
 
-#nav_logo {
+// IDs
+#img {
   position: relative;
-  top: 5%;
-  left: 5%;
-  height: 5ch;
-  width: 3.5ch;
-  transform: scale(2.4);
-  z-index: 5;
-}
-#nav_title {
-  position: relative;
-  top: 30%;
-  left: 7.9%;
-  font-family: "Lobster", cursive;
-  z-index: 5;
-}
-#tab_list {
-  position: relative;
-  left: 30%;
+  width: 100%;
+  bottom: 20%;
+  // height: 90vh;
+  // position: relative;
+  // bottom: 50%;
 }

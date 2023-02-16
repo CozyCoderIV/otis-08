@@ -25,7 +25,7 @@ $desktop: 1200px;
   color: $secondary-1;
 }
 
-.title {
+.tab_title {
   position: relative;
   top: 30%;
   left: 7.9%;
@@ -44,12 +44,14 @@ $desktop: 1200px;
 
 #link {
   position: relative;
+  top: 25%;
   left: 12.5%;
   list-style: none;
   text-decoration: none;
   color: $secondary-1;
   transform: scale(0.77);
   background: #ffffff00;
+  font-family: "Lobster", cursive;
 
   // Galaxy S8+
   @media (min-width: 360px) {

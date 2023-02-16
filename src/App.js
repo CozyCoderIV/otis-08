@@ -7,6 +7,7 @@ import Contact from "./pages/contacts/Contact.js";
 import Art from "./pages/art/Art.js";
 import Navbar from "./components/navbar/Navbar.js";
 import Footer from "./components/footer/Footer.js";
+import bg from "./media/images/alley_bg.jpg";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/art" element={<Art />}></Route>
       </Routes>
       <Navbar />
+      <img id="bg-img" src={bg}></img>
       <Footer />
     </div>
   );

@@ -22,12 +22,13 @@ $desktop: 1200px;
 // Classes
 .foot_container {
   position: relative;
-  top: 10%;
+  top: 80%;
   height: 20vh;
   color: $secondary-1;
   border-top: 1px solid rgba(253, 252, 252, 0.202);
   border-bottom: 1px solid rgba(253, 252, 252, 0.202);
   background: linear-gradient(to bottom, rgb(22, 21, 21), black);
+  z-index: 1;
 }
 
 // ID's
@@ -36,4 +37,8 @@ $desktop: 1200px;
   color: $tertiary-1;
   top: 2.2ch;
   font-family: "Lobster", cursive;
+}
+
+.quote {
+  font-size: x-small;
 }
