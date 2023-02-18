@@ -22,10 +22,11 @@ $desktop: 1200px;
 // Classes
 .content_boxA {
   width: 100%;
-  height: 30vh;
+  height: 32vh;
   color: $tertiary-1;
   align-items: flex-start;
   margin-bottom: 2ch;
+  overflow: scroll;
 
   background: linear-gradient(
     to right,
@@ -41,7 +42,6 @@ $desktop: 1200px;
 .container {
   position: relative;
   height: 100%;
-  //   border: 1px solid greenyellow;
 }
 .cbA_title_box {
   position: relative;
@@ -54,6 +54,20 @@ $desktop: 1200px;
   position: relative;
   width: 50%;
   font-size: medium;
+}
+.desc_box {
+  overflow-y: scroll;
+  position: relative;
+  bottom: 1ch;
+}
+.d_text {
+  font-size: small;
+}
+.list_item {
+  // display: flex;
+}
+.lt_c {
+  display: flex;
 }
 
 // IDs

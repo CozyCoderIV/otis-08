@@ -20,8 +20,8 @@ function App() {
         <Route path="/art" element={<Art />}></Route>
       </Routes>
       <Navbar />
-      <img id="bg-img" src={bg}></img>
       <Footer />
+      <img id="bg-img" src={bg}></img>
     </div>
   );
 }

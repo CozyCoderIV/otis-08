@@ -11,19 +11,19 @@ function Tab_List() {
   return (
     <div className="base_container">
       <Link id="link" to="/">
-        <Title className="tab_title" title={tabNames[0]} />
+        <div className="tab_title">{tabNames[0]}</div>
       </Link>
       <Link id="link" to="/about">
-        <Title className="tab_title" title={tabNames[1]} />
+        <div className="tab_title">{tabNames[1]}</div>
       </Link>
       <Link id="link" to="/projects">
-        <Title className="tab_title" title={tabNames[2]} />
+        <div className="tab_title">{tabNames[2]}</div>
       </Link>
       <Link id="link" to="/contacts">
-        <Title className="tab_title" title={tabNames[3]} />
+        <div className="tab_title">{tabNames[3]}</div>
       </Link>
       <Link id="link" to="/art">
-        <Title className="tab_title" title={tabNames[4]} />
+        <div className="tab_title">{tabNames[4]}</div>
       </Link>
     </div>
   );
