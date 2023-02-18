@@ -11,7 +11,7 @@ function Home() {
   // Attributes
   const title1 = {
     a: "Welcome",
-    b: "Your Friendly Neighborhood Dev...",
+    b: "As Your Friendly Neighborhood Dev...",
     c: "I'm Otis R. Jackson IV",
     d: "Software Dev Aith A Concentration in UI/UX Design",
     description:
@@ -43,13 +43,6 @@ function Home() {
         desc={title1.description}
       />
       <Content_BoxA
-        className="feat-box"
-        title1={title3.a}
-        text={title3.b}
-        desc={title3.description}
-      ></Content_BoxA>
-      <Video src={fp} />
-      <Content_BoxA
         className="education-box"
         title1={title2.a}
         text={title2.b}
@@ -61,6 +54,13 @@ function Home() {
         lt3="Fall 2020 - Fall 2023 (Expected)"
       ></Content_BoxA>
       <Image src={wimg2} className="image_box" />
+      <Content_BoxA
+        className="feat-box"
+        title1={title3.a}
+        text={title3.b}
+        desc={title3.description}
+      ></Content_BoxA>
+      <Video src={fp} />
     </div>
   );
 }

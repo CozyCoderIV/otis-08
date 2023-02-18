@@ -24,8 +24,8 @@ $desktop: 1200px;
   position: relative;
   top: 6ch;
   left: 5%;
-  height: 100vh;
-  // background-color: #525251;
+  height: 367vh;
+  background-color: #070707a0;
   width: 90%;
   z-index: 1;
 
@@ -38,5 +38,67 @@ $desktop: 1200px;
   // iphone 6/7/8 Plus
   @media (min-width: 414px) {
   }
+  // Macbook Air
+  @media (min-width: 1440px) {
+  }
+}
+.proj_item {
+  display: grid;
+  overflow-x: scroll;
+  width: 100%;
+  height: 34vh;
+  color: $tertiary-1;
+  align-items: flex-start;
+  margin-bottom: 2ch;
+  overflow-y: hidden;
+
+  background: linear-gradient(
+    to right,
+    rgb(13, 12, 16),
+    rgb(29, 27, 30),
+    rgba(29, 27, 30, 0.337)
+  );
+  /* background: linear-gradient(to right,rgba(43, 1, 36, 0.794), rgba(41, 1, 1, 0.131), rgba(45, 29, 0, 0.337)); */
+  border-right: 0.5px solid black;
+
+  box-shadow: 0px 0px 10px 5px rgb(29, 27, 30);
+}
+.p-link {
+  border: 0.5px solid $tertiary-1;
+  border-radius: 2vh;
+  color: $tertiary-1;
+  font-family: "Lobster", cursive;
+  width: 10ch;
+  background-color: #ebebe523;
+}
+.p-title {
+  grid-row: 1;
+  font-family: "Lobster", cursive;
+  font-size: larger;
+}
+.proj_vid {
+  grid-row: 1;
+  grid-column: 3;
+  width: 40vh;
+  height: 30vh;
+  transform: scale(1);
+}
+.proj_vid_box {
+  width: 50vh;
+  height: 40vh;
+  overflow: hidden;
+  margin-bottom: 2ch;
 }
 // IDs
+#galaga {
+  height: 10vh;
+}
+#galaga_vid {
+  position: relative;
+  top: 3ch;
+
+  transform: scale(3.6);
+}
+#featured {
+  height: 10vh;
+}

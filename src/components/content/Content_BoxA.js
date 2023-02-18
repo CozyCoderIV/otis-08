@@ -8,7 +8,7 @@ function Content_BoxA(props) {
   // Methods
   // JSX
   return (
-    <div className="content_boxA">
+    <div className="content_boxA animate__fadeInLeft">
       <div className="container">
         {/* Content Box Title & Subtitle */}
         <div className="cbA_title_box">
@@ -49,7 +49,7 @@ function Content_BoxA(props) {
           </div>
         )}
         <hr />
-        {/* Optional List Items (3)*/}
+        {/* Optional List Items (3) */}
         {props.li1 && (
           <div className="list_item">
             <div className="lt_c">
@@ -72,6 +72,14 @@ function Content_BoxA(props) {
               <Title className="list_title" title={props.li3} />
             </div>
             <Text className="list_text" text={props.lt3} />
+          </div>
+        )}
+        {props.li4 && (
+          <div className="list_item">
+            <div className="lt_c">
+              <Title className="list_title" title={props.li4} />
+            </div>
+            <Text className="list_text" text={props.lt4} />
           </div>
         )}
         {/* Description Box */}

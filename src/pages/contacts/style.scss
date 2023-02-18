@@ -24,8 +24,8 @@ $desktop: 1200px;
   position: relative;
   top: 6ch;
   left: 5%;
-  height: 100vh;
-  background-color: #525251;
+  height: 110vh;
+  // background-color: #525251;
   width: 90%;
   z-index: 1;
 
@@ -38,5 +38,10 @@ $desktop: 1200px;
   // iphone 6/7/8 Plus
   @media (min-width: 414px) {
   }
+}
+.contact_image {
+  width: 30ch;
+  height: 40ch;
+  border: 2px solid black;
 }
 // IDs
